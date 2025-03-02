@@ -1,0 +1,64 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+
+# Executables
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# Build directories
+/build/
+/bin/
+/lib/
+/CMakeFiles/
+/CMakeCache.txt
+
+# Debug files
+*.pdb
+*.ilk
+*.map
+*.exp
+
+# Logs
+*.log
+
+# Mac-specific files
+.DS_Store
+AppleDouble
+.LSOverride
+
+# macOS system files
+__MACOSX/
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*~
+
+# Clang/GCC/Make files
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# CMake files
+/CMakeLists.txt.user
+/.cmake
+/.ninja_deps
+/.ninja_log
+
+# Xcode specific
+*.xcworkspace/
+*.xcuserstate
+*.xcuserdatad/
+
+# VSCode settings
+.vscode/
+*.code-workspace
